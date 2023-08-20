@@ -1,3 +1,7 @@
 Cargo.lock
 target
 wip
+
+# custom
+.cspell/
+.temp/
