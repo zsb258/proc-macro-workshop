@@ -25,9 +25,8 @@
 //
 // Resources:
 //
-//   - Relevant syntax tree types:
-//     https://docs.rs/syn/1.0/syn/struct.Attribute.html
-//     https://docs.rs/syn/1.0/syn/enum.Meta.html
+//   - Relevant syntax tree type:
+//     https://docs.rs/syn/2.0/syn/struct.Attribute.html
 
 use derive_builder::Builder;
 
