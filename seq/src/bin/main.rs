@@ -10,15 +10,18 @@ use seq::seq;
 //     expand_to_nothing!(N);
 // });
 
-// seq(N in 1..4 {
+// seq!(N in 1..4 {
 //     fn f~N () -> u64 {
 //         N * 2
 //     }
 // });
 
-seq!(N in 1..4 {
-    fn f~N () -> u64 {
-        N * 2
+seq!(N in 0..3 {
+    // #[derive(Copy, Clone, PartialEq, Debug)]
+    enum Interrupt {
+        #(
+            Irq~N,
+        )*
     }
 });
 
